@@ -1,5 +1,6 @@
 {
     "name": "paumel/scrapper",
+    "license": "MIT",
     "description": "Package to get info from URL",
     "authors": [
         {
