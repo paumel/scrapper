@@ -1,0 +1,19 @@
+{
+    "name": "paumel/scrapper",
+    "description": "Package to get info from URL",
+    "authors": [
+        {
+            "name": "Paulius Melaika",
+            "email": "pmpauliusm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Paumel\\Scrapper\\ScrapperServicesProvider"
+            ]
+        }
+    }
+}
