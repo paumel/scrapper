@@ -10,6 +10,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Paumel\\Scrapper\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
