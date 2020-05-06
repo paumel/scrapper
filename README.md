@@ -30,7 +30,7 @@ If you want to scrape HTML data:
 
 ```php
 $scrapper = new Scrapper('http://test.com', 'html');
-$data = $scrapper->('a.test-class');
+$data = $scrapper->find('a.test-class');
 ```
 [More about selecting HTML elements](https://simplehtmldom.sourceforge.io/manual.htm)
 
@@ -38,7 +38,7 @@ If you want to scrape JSON data:
 
 ```php
 $scrapper = new Scrapper('http://test.com', 'json');
-$data = $scrapper->('json_parameter');
+$data = $scrapper->find('json_parameter');
 ```
 ---
 
